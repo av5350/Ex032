@@ -26,7 +26,8 @@
             android:id="@+id/cancelBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cancel the number" />
+            android:text="Cancel the number"
+            android:onClick="cancel"/>
 
         <Space
             android:layout_width="match_parent"
@@ -50,7 +51,8 @@
             android:id="@+id/clickBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Click for number" />
+            android:text="Click for number"
+            android:onClick="randomNum"/>
 
         <Space
             android:layout_width="match_parent"
